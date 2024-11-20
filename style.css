@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color:#6fc5c8;
+    color: white;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    padding: 45px;
+    opacity: 100%;
+    font-size: 45px;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    transform: scale(1.25);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+
+}
+
+#logo {
+    width: 100px;
+    position: fixed; 
+    top: 20px;
+}
+
+#logo:hover {
+    transform: none;
+}
+
+.league-spartan {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.imagem {
+    border-radius: 80px;
+  
+}
+
+.s1 {
+    width: 100%;
+    height: 85%;
+    color: rgb(0, 0, 0);
+    padding-top: 14%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.dois {
+    width: 40%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    
+}
+
+#qmsomos {
+    padding-left: 10%;
+    width: 45%;
+    font-size: 30px;
+    padding-top: 2.5%;
+}
+
+.justificado {
+    text-align: justify;
+
+}
+
